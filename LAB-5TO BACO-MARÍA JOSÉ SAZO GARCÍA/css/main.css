@@ -1,0 +1,208 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: lightcyan;
+}
+
+/* ---variable-- */
+:root {
+    --fuente3:'Taviraj', serif;
+    --fuente4: 'Ultra', serif;
+    --gris: rgb(182, 177, 177);
+    --verde:yellowgreen;
+    --blanco:white;
+    --negro:black;
+}
+
+/* ---header---- */
+.header {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--verde);
+}
+
+.titulo {
+    font-size: 50px;
+    font-family: var(--fuente4);
+    color: var(--negro);
+    margin: 30px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.contenedor {
+    margin-right: 30px;
+}
+
+.menu li {
+    margin: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 25px;
+    font-family: var(--fuente3);
+}
+
+.menu a:hover {
+    color: var(--negro);
+    transition: 800ms;
+}
+
+/* ---fin header---- */
+
+/*----inicio main--- */
+
+.main {
+    display: flex;
+    width: 100%;
+}
+
+.titulo__main {
+    font-size: 40px;
+    font-family: var(--fuente4);
+    text-align: right;
+    margin-right: 300px;  
+    color: var(--negro);
+}
+
+.contenido__main {
+    color: var(--negro);
+    font-family: var(--fuente3);
+    font-size: 20px;
+    justify-content: right;
+    text-align: justify;
+    margin: 10px;
+}
+.contenedor__c {
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    text-align: right;
+    flex-wrap: wrap;
+}
+
+.main__imagen {
+    margin-left: 150px;
+    width: 700px;
+    height: 400px;
+    margin-top: 100px;
+    margin-right: 800px;
+    border: 10px dotted limegreen;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tarjeta__producto {
+    width: 350px;
+    height: 250px;
+    background-color: lightsalmon;
+    border-radius: 10px;
+    padding: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 7px solid palevioletred;
+}
+.tarjeta__producto h2 {
+    font-family: var(--fuente4);
+    text-align: center;
+}
+.tarjeta__producto img {
+    padding-left: 70px;
+    width: 200px;
+    height: 150px;
+}
+
+.tarjeta__producto p {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.tarjeta__producto:hover {
+    background-color: coral;
+    color: white;
+    transition: 400ms;
+}
+/* ---main index--- */
+.main__index {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main__container p {
+    color: var(--negro);
+    font-family: var(--fuente3);
+    font-size: 22px;
+    padding-left: 30px;
+    justify-content: center;
+}
+
+.main__container h1 {
+    color: var(--negro);
+    font-family: var(--fuente4);
+    font-size: 40px;
+    margin-top: 150px;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+/* ---fin main index--- */
+/* ---botón--- */
+.main__button {
+    background-color:var(--verde);
+    width: 300px;
+    height: 55px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 70px;
+    margin-right: 430px;
+    margin-left: 400px;
+    border: 20px;
+}
+
+.main__button a {
+    text-decoration: none;
+    color: var(--negro);
+    font-family: var(--fuente4);
+    font-size: 30px;
+}
+
+.main__button:hover {
+    background-color: goldenrod;
+    width: 350px;
+    margin-left: 500px;
+    transition: 900px;
+}
+
+.main__button a:hover {
+    color: green;
+    justify-content: center;
+}
+/* ---fin botón--- */
+
+.main__productos {
+    margin: 15px;
+}
+
+.main__productos h2 {
+    color: var(--negro);
+    font-size: 25px;
+    font-family: var(--fuente4);
+}
+
+.main__productos p {
+    font-family: var(--fuente3);
+    font-size: 20px;
+    color: var(--negro);
+}
